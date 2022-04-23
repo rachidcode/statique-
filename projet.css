@@ -22,7 +22,6 @@ ul {
 header {
     width: 100%;
     height: 80px;
-   
     top: 0;
     left: 0;
     border-bottom: 4px solid rgb(190, 151, 20);
@@ -36,7 +35,7 @@ li {
 }
 
 li:hover {
-    background-color: rgba(142, 218, 245, 0.835);
+    background-color: rgb(190, 151, 20);
     border-radius: 40%;
 
 }
@@ -74,8 +73,6 @@ nav {
 
 .imgHeader{
      width: 100%;
-     
-     
 }
 
 
@@ -328,7 +325,7 @@ article.team {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10%;
-    width: 160vh;
+    width: 1000px;
    
 }
 
@@ -473,6 +470,10 @@ article.team {
     .text2 {
         margin-left: 0;
     }
+    .photoEvenement{
+        width: 100%;
+        
+    }
 
 }
 @media screen and (max-width: 641px) {
@@ -550,7 +551,9 @@ article.team {
         .rightManagers {
             margin: 0%;
         }
-
+        .imgHeader{
+            margin-top: 100px;
+       }
         #histoire{
             margin-top: 100px;
 
@@ -570,6 +573,9 @@ article.team {
         #evenement{
             margin-top: 100px;
             
+        }
+        .photoEvenement{
+            width: 100%;
         }
         .reseau {
             max-width: 300px;
